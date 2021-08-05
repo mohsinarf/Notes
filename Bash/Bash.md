@@ -9,3 +9,5 @@ or
 `Cat <FileName> -n`
 
 `scp -r -P port# <FileName> Username@IPAddress:/directory/`
+
+`histroy | grep ssh`
