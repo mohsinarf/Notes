@@ -1,5 +1,5 @@
 # Syntax
----
+
 ## Pointers
 ```
 int var = 8;
