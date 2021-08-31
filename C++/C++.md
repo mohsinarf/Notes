@@ -13,3 +13,6 @@ char** ptr_a = &buffer; // Pointers to pointer
 
 delete[] buffer;
 ```
+## CONST keyword
+
+## Mutable keyword
