@@ -1,9 +1,9 @@
-## C Systax 
+## C Syntax 
 ```
 #include <stdio.h>
 int main()
 {
-    // fprint statement
+    // printf statement
    char ch = 'A';
    char str[20] = "sample txt";
    float flt = 10.234;
