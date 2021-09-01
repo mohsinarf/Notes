@@ -1,5 +1,5 @@
 
-## Random commands
+## Useful commands
 ---
 
 ```
@@ -11,6 +11,7 @@ ls -l                                           // Show file in list mode with a
 ls -a                                           // Show all files including hidden file 
 chmod +x filename                               // make the file executable
 find . -name "*libQtSvg.do*"
+ldd exectubale_file > log.txt                   // Write the dependency required by exectuable_file in to a log.txt file
 
 ```
 ## Hello Bash Script
@@ -29,7 +30,7 @@ echo "Sample text" > file.txt                   // Create file.txt and Write "Sa
 cat > file.txt                                  // Write text in the file.txt file from the terminal
 cat >> file.txt                                 // Append text in the file.txt file from the terminal
 ```
-## Comments
+## Comments in Bash Script
 ---
 ```
 #this is a one-line comment                     // Single line comments
