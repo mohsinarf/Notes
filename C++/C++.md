@@ -16,3 +16,15 @@ delete[] buffer;
 ## CONST keyword
 
 ## Mutable keyword
+
+## Deallocation Heap Memory
+```
+// Deallocating single element
+if (item)
+   delete item;
+   
+// Deallocating vector
+for (it=Vector.begin(); it != Vector.end(); it++)
+     delete *it;
+Vector.erase(it.begin(), it.end());
+```
