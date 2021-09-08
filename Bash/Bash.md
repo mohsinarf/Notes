@@ -10,6 +10,7 @@ ls -a                                           // Show all files including hidd
 chmod +x filename                               // make the file executable
 find . -name "*libQtSvg.do*"
 ldd exectubale_file > log.txt                   // Write the dependency required by exectuable_file in to a log.txt file
+rm -rf "directory"                              // Remove directory without asking for confirmation
 
 ```
 ## Hello Bash Script
