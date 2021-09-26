@@ -10,6 +10,10 @@
 
 `git config --global user.email "MY_NAME@example.com"`
 
+*Clone git repository*
+
+`git clone <Repsoitory_link>`
+
 *stage changes*
 
 `git add <filename>`
