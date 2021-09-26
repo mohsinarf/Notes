@@ -34,5 +34,8 @@ Vector.erase(it.begin(), it.end());
 ## Iterator
 
 ## Algorithm
-
+#include <algorithm>   
+sort(vec.begin(), vec.end());
+abs(x);
+   
 ## Casting
