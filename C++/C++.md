@@ -13,9 +13,6 @@ char** ptr_a = &buffer; // Pointers to pointer
 
 delete[] buffer;
 ```
-## CONST keyword
-
-## Mutable keyword
 
 ## Deallocation Heap Memory
 ```
@@ -28,3 +25,16 @@ for (it=Vector.begin(); it != Vector.end(); it++)
      delete *it;
 Vector.erase(it.begin(), it.end());
 ```
+
+
+## CONST keyword
+
+## Mutable keyword
+
+## Template
+
+## Iterator
+
+## Algorithm
+
+## Casting
