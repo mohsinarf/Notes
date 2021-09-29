@@ -40,3 +40,20 @@ sort(vec.begin(), vec.end());
 abs(x);
 ```
 ## Casting
+
+## std::array
+~~~
+#include <array>
+int main()
+{
+    std::array<int, 10> arr;
+    
+    for(int iter=0;iter<arr.size(); ++iter)
+        arr[iter] = iter;
+    
+    for(int iter=0;iter<arr.size(); ++iter)
+        std::cout<<arr[iter]<<std::endl;
+        
+    return 0;
+}
+~~~
