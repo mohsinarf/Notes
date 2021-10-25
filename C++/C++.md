@@ -104,6 +104,29 @@ int main()
 	*a = 10;  // Okay
 	a = &var; // Not allowed to reassign the pointer a
 ```
+```
+class Player
+{
+private:
+	int m_x, m_y;
+
+public:
+	int GetX() const
+	{
+		return m_x;
+	}
+};
+
+void print(const Player& player)
+{
+	std::cout << player.GetX() << std::endl;
+}
+int main()
+{
+	Player player;
+	print(player);
+}
+```
 
 ## Mutable keyword
 
