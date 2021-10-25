@@ -88,6 +88,22 @@ int main()
 ```
 
 ## CONST keyword
+```
+	const int a = 5;
+	a = 10; // Not allowed to change the contents of a
+```
+```
+	int var = 10;
+	const int* a = new int;
+	*a = 10;  // Not allowed to change the contents of pointer a
+	a = &var; // Okay! 
+```
+```
+	int var = 10;
+	int* const a = new int;
+	*a = 10;  // Okay
+	a = &var; // Not allowed to reassign the pointer a
+```
 
 ## Mutable keyword
 
