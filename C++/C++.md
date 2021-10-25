@@ -129,7 +129,20 @@ int main()
 ```
 
 ## Mutable keyword
+```
+class Player {
+private:
+	std::string name;
+	mutable int debug_count;
+public:
+	const std::string& GetName() const
+	{
+		debug_count++;
+		return name;
+	}
 
+};
+```
 
 ## Algorithm
 ```
