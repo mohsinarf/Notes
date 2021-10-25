@@ -172,6 +172,8 @@ int main()
 2) Bounce checking during the debug mode
 
 ## Template
+
+### Functions
 ```
 template<typename T>
 void print(T value) 
@@ -186,6 +188,26 @@ int main()
 	print("Sample text");
 }
 ```
+### Classes
+```
+template<int N, typename T>
+class Array
+{
+private:
+	T array[N];
+public:
+	void print_size() {
+		std::cout << N << std::endl;
+	}
+};
+
+int main()
+{
+	Array<5, int> array;
+	array.print_size();
+}
+```
+
 
 ## Casting
 
