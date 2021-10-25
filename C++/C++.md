@@ -171,8 +171,8 @@ int main()
 1) arr.size() (no need to manage the size of static array)
 2) Bounce checking during the debug mode
 
-## Casting
-
 ## Template
+
+## Casting
 
 ## Iterator
