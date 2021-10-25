@@ -172,6 +172,20 @@ int main()
 2) Bounce checking during the debug mode
 
 ## Template
+```
+template<typename T>
+void print(T value) 
+{
+	std::cout << value << std::endl;
+}
+
+int main()
+{
+	print(5);
+	print(6.7f);
+	print("Sample text");
+}
+```
 
 ## Casting
 
