@@ -130,9 +130,6 @@ int main()
 
 ## Mutable keyword
 
-## Template
-
-## Iterator
 
 ## Algorithm
 ```
@@ -140,7 +137,6 @@ int main()
 sort(vec.begin(), vec.end());
 abs(x);
 ```
-## Casting
 
 ## std::array
 ~~~
@@ -161,3 +157,9 @@ int main()
 ### Advantages over C style array
 1) arr.size() (no need to manage the size of static array)
 2) Bounce checking during the debug mode
+
+## Casting
+
+## Template
+
+## Iterator
