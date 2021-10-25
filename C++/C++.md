@@ -23,7 +23,31 @@ for (it=Vector.begin(); it != Vector.end(); it++)
      delete *it;
 Vector.erase(it.begin(), it.end());
 ```
+## Smart pointers
 
+```
+class item
+{
+public:
+	item() {
+		std::cout << "Object is created" << std::endl;
+	}
+	~item() {
+		std::cout << "Object is distroyed" << std::endl;
+	}
+	void print() {
+		std::cout << "Sample Text." << std::endl;
+	}
+};
+int main()
+{
+	std::shared_ptr<item> s_pointer = std::make_shared<item>();
+	{
+		std::shared_ptr<item> s_pointer2 = s_pointer;
+	}
+	s_pointer->print();
+}
+```
 
 ## CONST keyword
 
