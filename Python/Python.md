@@ -132,25 +132,6 @@ def max_num(num1, num2, num3):
 max_num(40,14,20)
 ```
 
-## Dictionaries
-```
-calender = {
-    1:"January",
-    2:"Februray",
-    3:"March",
-    4:"April",
-    5:"May",
-    6:"June",
-    7:"July",
-    8:"August",
-    9:"September",
-    10:"October",
-    11:"November",
-    12:"December"
-}   
-print(calender[6])
-print(calender.get(13, "Not a valid key."))
-```
 ## Guessing game
 ```
 secret_word = "Ali"
@@ -257,48 +238,6 @@ friends.reverse()
 print(friends)
 
 friends.clear()
-```
-## Tuples
-A tuple is a sequence of immutable Python objects. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists
-```
-# Elements in tuples are immutable
-coordinates = (2, 3, 8)
-print(coordinates[1])
-```
-
-## Functions
-```
-def cube(num):
-    return pow(num, 3)
-
-number = input("Enter your number :")
-result = cube(int(number))
-print("Cube of "+str(number) + " is equal to " + str(result))
-```
-
-## Conditional statements
-```
-is_male = False
-is_tall = True
-
-if is_male and is_tall:
-    print("You are male and tall. ")
-    
-elif is_male or is_tall:
-    print("You are either male or tall. ")
-
-else:
-    print("You are neither male nor tall.")
-
-def max_num(num1, num2, num3):
-    if num1 >= num2 and num1 >= num3:
-        print(num1)
-    elif num2 >= num1 and num2 >= num3:
-        print(num2)
-    else:
-        print(num3)
-
-max_num(40,14,20)
 ```
 
 ## Dictionaries
