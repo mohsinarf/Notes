@@ -132,26 +132,6 @@ def max_num(num1, num2, num3):
 max_num(40,14,20)
 ```
 
-## Guessing game
-```
-secret_word = "Ali"
-input_word  = ""
-guess_limit = 5
-out_of_guesses = False
-count = 0
-
-while secret_word != input_word and not(out_of_guesses):
-    input_word = input("Guess the name : ")
-    count +=1
-    if guess_limit == count:
-        out_of_guesses = True
-    
-if out_of_guesses:
-    print("You lost. Out of guesses.")
-else:
-    print("You won!")
-```
-
 ## For loops
 ```
 name = "Mohsin Ali"
@@ -277,23 +257,6 @@ if out_of_guesses:
     print("You lost. Out of guesses.")
 else:
     print("You won!")
-```
-
-## For loops
-```
-name = "Mohsin Ali"
-for letter in name:
-    print(letter)
-
-friends = ["Jim", "Mark", "Tom", "Cindy"]
-for friend in friends:
-    print(friend)
-
-for num in range(10):
-    print(num)
-
-for num in range(12, 19):
-    print(num)
 ```
 
 ## Class
