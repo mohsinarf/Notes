@@ -183,43 +183,6 @@ result = float(num1) + float(num2)
 print("Summation of both number is ", result)
 ```
 
-## List
-```
-friends = ["Mike", "Jim", "Harry", "Kim"]
-relatives = ["Bob", "Tom"]
-# Print whole list
-print(friends)
-# Print elements between 0  ~ 2
-print(friends[0:2])
-# Print elements from 3 to list end
-print(friends[3:])
-# Print last element
-print(friends[-1])
-
-friends.extend(relatives)
-
-friends.append("Mindy")
-
-friends.insert(1, "Nancy")
-
-friends.remove("Harry")
-
-# Remove the last elements from the list 
-friends.pop()
-
-print(friends.index("Bob"))
-
-print(friends.count("Jim"))
-
-friends.sort()
-print(friends)
-
-friends.reverse()
-print(friends)
-
-friends.clear()
-```
-
 ## Dictionaries
 ```
 calender = {
