@@ -173,15 +173,6 @@ except ValueError as err:
 except ZeroDivisionError as err:
     print(err)
 ```
-## Geting inputs from the user
-```
-num1 = input("Enter first number :")
-num2 = input("Enter second number :")
-
-result = float(num1) + float(num2)
-
-print("Summation of both number is ", result)
-```
 
 ## Dictionaries
 ```
