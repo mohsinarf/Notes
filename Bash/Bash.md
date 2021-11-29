@@ -12,6 +12,9 @@ find . -name "*libQtSvg.do*"
 ldd exectubale_file > log.txt                   // Write the dependency required by exectuable_file in to a log.txt file
 rm -rf "directory"                              // Remove directory without asking for confirmation
 
+ fgrep '_PB_INC1' -r                            // Search text in the current location
+
+
 ```
 ## Hello Bash Script
 ```
