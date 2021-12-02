@@ -207,7 +207,30 @@ int main()
 	array.print_size();
 }
 ```
+## Threads
+```
+#include <iostream>
+#include <thread>
 
+static bool flag = true;
+
+void print_to_console(int num)
+{
+    while(flag)
+    {
+        std::cout << "Working..."<< num << std::endl;
+    }
+}
+
+int main()
+{
+    std::thread t1(print_to_console, 2);
+    std::cin.get();
+    flag = false;
+    t1.join();
+    return 0;
+}
+```
 
 ## Casting
 
