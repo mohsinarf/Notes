@@ -1,28 +1,3 @@
-## Pointers
-```
-int var = 8;
-int* ptr = &var;  
-*ptr = 10; 
-
-char* buffer = new char[8];
-memset(buffer, 0 , 8);  // Assign the value of 0 to 8 bytes from buffer address
-
-char** ptr_a = &buffer; // Pointers to pointer
-
-delete[] buffer;
-```
-
-## Deallocation Heap Memory
-```
-// Deallocating single element
-if (item)
-   delete item;
-   
-// Deallocating vector
-for (it=Vector.begin(); it != Vector.end(); it++)
-     delete *it;
-Vector.erase(it.begin(), it.end());
-```
 ## Smart pointers
 
 ```
@@ -86,6 +61,33 @@ int main()
     else
         std::cout << "weak2 is expired\n";
 ```
+
+## Raw Pointers
+```
+int var = 8;
+int* ptr = &var;  
+*ptr = 10; 
+
+char* buffer = new char[8];
+memset(buffer, 0 , 8);  // Assign the value of 0 to 8 bytes from buffer address
+
+char** ptr_a = &buffer; // Pointers to pointer
+
+delete[] buffer;
+```
+
+## Deallocation Heap Memory
+```
+// Deallocating single element
+if (item)
+   delete item;
+   
+// Deallocating vector
+for (it=Vector.begin(); it != Vector.end(); it++)
+     delete *it;
+Vector.erase(it.begin(), it.end());
+```
+
 
 ## CONST keyword
 ```
@@ -242,7 +244,40 @@ int main()
          std::cout << e.what(); // information from length_error printed
     }
 ```
-
-## Casting
-
-## Iterator
+## Explicit keyword
+```
+struct A
+{
+    A(int) { }      // converting constructor
+    A(int, int) { } // converting constructor (C++11)
+    operator bool() const { return true; }
+};
+ 
+struct B
+{
+    explicit B(int) { }
+    explicit B(int, int) { }
+    explicit operator bool() const { return true; }
+};
+ 
+int main()
+{
+    A a1 = 1;      // OK: copy-initialization selects A::A(int)
+    A a2(2);       // OK: direct-initialization selects A::A(int)
+    A a3 {4, 5};   // OK: direct-list-initialization selects A::A(int, int)
+    A a4 = {4, 5}; // OK: copy-list-initialization selects A::A(int, int)
+    A a5 = (A)1;   // OK: explicit cast performs static_cast
+    if (a1) ;      // OK: A::operator bool()
+    bool na1 = a1; // OK: copy-initialization selects A::operator bool()
+    bool na2 = static_cast<bool>(a1); // OK: static_cast performs direct-initialization
+ 
+//  B b1 = 1;      // error: copy-initialization does not consider B::B(int)
+    B b2(2);       // OK: direct-initialization selects B::B(int)
+    B b3 {4, 5};   // OK: direct-list-initialization selects B::B(int, int)
+//  B b4 = {4, 5}; // error: copy-list-initialization does not consider B::B(int,int)
+    B b5 = (B)1;   // OK: explicit cast performs static_cast
+    if (b2) ;      // OK: B::operator bool()
+//  bool nb1 = b2; // error: copy-initialization does not consider B::operator bool()
+    bool nb2 = static_cast<bool>(b2); // OK: static_cast performs direct-initialization
+}
+```
