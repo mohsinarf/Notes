@@ -231,6 +231,17 @@ int main()
     return 0;
 }
 ```
+## Exceptions 
+```
+    try 
+    {
+        // throws std::length_error
+        std::string("abc").substr(10);
+    } 
+    catch (const std::exception& e) { // reference to the base of a polymorphic object
+         std::cout << e.what(); // information from length_error printed
+    }
+```
 
 ## Casting
 
