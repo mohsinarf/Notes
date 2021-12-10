@@ -14,12 +14,12 @@ rm -rf "directory"                              // Remove directory without aski
 
  fgrep '_PB_INC1' -r                            // Search text in the files from current location
 
-## Vim Command
+```
 
+## Vim Command
+```
 vim filename
 vimdiff file1 file2
-
-
 ```
 ## Hello Bash Script
 ```
