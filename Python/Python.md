@@ -18,7 +18,7 @@ print(phrase.index("another"))
 # Replace the part of a string with another string
 print(phrase.replace("is", "was"))
 ```
-## Number in Pythom
+## Number in Python
 ```
 from math import *
 
@@ -52,7 +52,15 @@ result = float(num1) + float(num2)
 
 print("Summation of both number is ", result)
 ```
+## Comments
+```
+# This is a single line comment.
 
+'''
+This is a multi line 
+comment.
+'''
+```
 ## List
 ```
 friends = ["Mike", "Jim", "Harry", "Kim"]
