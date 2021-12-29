@@ -151,6 +151,7 @@ public:
 #include <algorithm>   
 sort(vec.begin(), vec.end());
 abs(x);
+pow(2,3)
 ```
 
 ## std::array
