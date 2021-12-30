@@ -21,6 +21,13 @@ rm -rf "directory"                              // Remove directory without aski
 vim filename
 vimdiff file1 file2
 ```
+### Vim search
+```
+/                                               // to start the search
+n                                               // to find the next instance
+N                                               // to find the previous instance
+/\<gnu\>                                        // to search the whole word
+```
 ## Hello Bash Script
 ```
 Which Bash                                      // To find the location of bash
