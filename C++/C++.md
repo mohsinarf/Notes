@@ -149,9 +149,10 @@ public:
 ## Algorithm
 ```
 #include <algorithm>   
-sort(vec.begin(), vec.end());
-abs(x);
-pow(2,3)
+std::sort(vec.begin(), vec.end());
+std::abs(x);
+std::pow(2,3);
+std::swap(arr[i], arr[j]);
 ```
 
 ## std::array
