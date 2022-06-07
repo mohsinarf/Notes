@@ -35,10 +35,10 @@ or
 
 *Print existing branch*
 
-`git branch`
+`git branch -r`
 
 
 
 `git log`
 
-`git remote`
+`git remote update`
