@@ -42,3 +42,5 @@ or
 `git log`
 
 `git remote update`
+
+`git config --list`
