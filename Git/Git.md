@@ -27,9 +27,9 @@ or
 
 `git commit -m "Change information"`
 
-*Push changes to the master*
+*Push changes to the remote repository
 
-`git push -u origin master`
+`git push <remote_name> <branch_name>`
 
 `git status`
 
