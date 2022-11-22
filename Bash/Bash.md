@@ -77,3 +77,7 @@ tmux kill-session -t "session_name"            // Close the session
 
 ```
 
+## DNS Query
+```
+dig google.com
+```
