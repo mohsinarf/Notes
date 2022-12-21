@@ -331,3 +331,33 @@ int main()
     std::cout << *i << "\n";
 }
 ```
+
+## C++11 features
+### constexpr
+In C++11, the constexpr keyword can be used to declare variables or functions that must be evaluated at compile time. This means that the value of a constexpr variable or the result of a constexpr function can be used in any context where a constant expression is required, such as in the initialization of a const variable or as an array bound.
+
+Using constexpr has several benefits:
+
+It allows for more efficient code, as the value is computed at compile time rather than at runtime.
+It can make the code easier to read and understand, as the value of a constexpr variable or the result of a constexpr function is known at compile time and does not depend on runtime conditions.
+It can enable better optimization by the compiler, as it knows the value of a constexpr variable or the result of a constexpr function at compile time.
+Here is an example of a simple constexpr function in C++11:
+
+```
+constexpr int factorial(int n)
+{
+    return (n <= 1) ? 1 : n * factorial(n - 1);
+}
+
+int main()
+{
+    // The value of 'x' will be computed at compile time
+    constexpr int x = factorial(5);
+
+    // The value of 'y' will be computed at runtime
+    int y = factorial(5);
+
+    return 0;
+}
+
+```
