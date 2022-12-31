@@ -361,3 +361,9 @@ int main()
 }
 
 ```
+### Raw String Literals
+C++11 introduces a new way to declare string literals as "raw string literals". Characters issued from an escape sequence (tabs, line feeds, single backslashes, etc.) can be inputted raw while preserving formatting. This is useful, for example, to write literary text, which might contain a lot of quotes or special formatting. This can make your string literals easier to read and maintain.
+
+A raw string literal is declared using the following syntax:
+
+```R"delimiter(raw_characters)delimiter"```
