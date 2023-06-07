@@ -6,13 +6,13 @@ This repository serves as a collection of comprehensive notes related to various
 
 This repository covers the following topics:
 
-1. [C++](c++/README.md): Notes and examples related to the C++ programming language.
-2. [Git](git/README.md): Useful information and commands for version control with Git.
-3. [Jira](jira/README.md): Tips and guidelines for using Jira, a popular issue and project tracking tool.
-4. [Markdown](markdown/README.md): A guide to writing and formatting Markdown files.
-5. [Python](python/README.md): Notes, code snippets, and best practices for Python programming.
-6. [TensorFlow](tensorflow/README.md): Resources, tutorials, and examples for TensorFlow, an open-source machine learning framework.
-7. [Unix](unix/README.md): Essential Unix commands and concepts for working with Unix-like operating systems.
+1. [C++](C++): Notes and examples related to the C++ programming language.
+2. [Git](Git): Useful information and commands for version control with Git.
+3. [Jira](Jira): Tips and guidelines for using Jira, a popular issue and project tracking tool.
+4. [Markdown](Markdown): A guide to writing and formatting Markdown files.
+5. [Python](Python): Notes, code snippets, and best practices for Python programming.
+6. [TensorFlow](Tensor_flow): Resources, tutorials, and examples for TensorFlow, an open-source machine learning framework.
+7. [Unix](Unix): Essential Unix commands and concepts for working with Unix-like operating systems.
 
 ## Contributing
 
