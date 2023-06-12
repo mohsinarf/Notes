@@ -1,4 +1,4 @@
-# Repository: Developer's Notes
+# Developer's Notes
 
 This repository serves as a collection of comprehensive notes related to various programming languages, tools, and frameworks commonly used in software development. Whether you're a beginner or an experienced developer, these notes aim to provide valuable insights, tips, and examples to enhance your understanding and productivity.
 
