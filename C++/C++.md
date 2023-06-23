@@ -153,6 +153,14 @@ std::sort(vec.begin(), vec.end());
 std::abs(x);
 std::pow(2,3);
 std::swap(arr[i], arr[j]);
+
+// Convert string to Int
+char str[] = "12345";
+int n = atoi(str);
+
+// Convert integer to string using string library
+ std::string str = std::to_string(n);
+
 ```
 
 ## std::array
