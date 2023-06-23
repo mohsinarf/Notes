@@ -161,6 +161,15 @@ int n = atoi(str);
 // Convert integer to string using string library
  std::string str = std::to_string(n);
 
+// Convert string to lowercase
+    std::transform(str.begin(), str.end(), str.begin(), ::tolower);
+
+// Find alpha numeric characters 
+if (std::isalnum(c)) {
+    std::cout << "Alphanumeric character found: " << c << std::endl;
+} else {
+    std::cout << "Non-alphanumeric character found: " << c << std::endl;
+}
 ```
 
 ## std::array
