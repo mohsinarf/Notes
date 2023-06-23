@@ -170,6 +170,18 @@ if (std::isalnum(c)) {
 } else {
     std::cout << "Non-alphanumeric character found: " << c << std::endl;
 }
+
+#include <cctype> functions
+std::isalnum  // Checks if a character is alphanumeric (letter or digit).
+std::isalpha  // Checks if a character is an alphabetic letter.
+std::isdigit  // Checks if a character is a digit.
+std::isxdigit // Checks if a character is a hexadecimal digit.
+std::islower  //Checks if a character is a lowercase letter.
+std::isupper  // Checks if a character is an uppercase letter.
+std::isspace  //Checks if a character is a whitespace character.
+
+std::tolower // Converts a character to lowercase.
+std::toupper // Converts a character to uppercase.
 ```
 
 ## std::array
