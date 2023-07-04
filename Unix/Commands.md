@@ -5,14 +5,14 @@ tree <directory_name>  or tree                  //Print directory tree
 Cat <FileName> -n
 scp -r -P port# <FileName> Username@IPAddress:/directory/
 histroy | grep ssh
-ls -l                                           // Show file in list mode with all the option
-ls -a                                           // Show all files including hidden file 
-chmod +x filename                               // make the file executable
+ls -l                                          // Show file in list mode with all the option
+ls -a                                          // Show all files including hidden file 
+chmod +x filename                              // make the file executable
 find . -name "*libQtSvg.do*"
-ldd exectubale_file > log.txt                   // Write the dependency required by exectuable_file in to a log.txt file
-rm -rf "directory"                              // Remove directory without asking for confirmation
-
- fgrep '_PB_INC1' -r                            // Search text in the files from current location
+ldd exectubale_file > log.txt                  // Write the dependency required by exectuable_file in to a log.txt file
+rm -rf "directory"                             // Remove directory without asking for confirmation
+ldd app.exec                                   // find all the dependencies to run the application
+fgrep '_PB_INC1' -r                            // Search text in the files from current location
 
 ```
 
@@ -80,4 +80,16 @@ tmux kill-session -t "session_name"            // Close the session
 ## DNS Query
 ```
 dig google.com
+```
+
+## Running process
+```
+ps -ef
+```
+
+## Android Commands
+```
+adb devices
+adb intall package
+adb shell
 ```
