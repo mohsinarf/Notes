@@ -15,14 +15,24 @@ ldd app.exec                                   // find all the dependencies to r
 fgrep '_PB_INC1' -r                            // Search text in the files from current location
 
 ```
+## Grep Commands
+```
+grep '_PB_INC1' -r .                           // Search text in the files from the current location
+grep "search_word" file.txt                    // Search for a specific word in a file
+grep -r "pattern" /path/to/directory           // Recursive search in directories for a pattern
+grep -i "pattern" file.txt                     // Case-insensitive search for a pattern
+grep -c "pattern" file.txt                     // Count the number of occurrences of a pattern in a file
+grep -n "pattern" file.txt                     // Display line numbers where the pattern matches occur
+grep -v "exclude_this" file.txt                // Invert the match and show lines that do not contain the pattern
+grep "^[A-Za-z]+ing$" file.txt                 // Use regular expressions for complex pattern matching
+grep "pattern" -f file_list.txt                // Search for a pattern from a list of files
 
-## Vim Command
+```
+## Vim Commands
 ```
 vim filename
 vimdiff file1 file2
-```
-### Vim search
-```
+
 /                                               // to start the search
 n                                               // to find the next instance
 N                                               // to find the previous instance
@@ -36,8 +46,12 @@ chmod +x shellScript.sh                         // make the file executable
 #! /bin/bash                                    // Run the script only using bash, no matter in which environment you are
 echo "Hello Bash Script"
 ```
-## Redirect to file
+
+## Managing files
 ```
+cat file.txt                                    // Display all the contents of file.txt
+tail -f file.txt                                // Display the last few lines of a file in real-time as new lines are added to the file
+
 echo "Sample text" > file.txt                   // Create file.txt and Write "Sample text" in it
 cat > file.txt                                  // Write text in the file.txt file from the terminal
 cat >> file.txt                                 // Append text in the file.txt file from the terminal
@@ -84,7 +98,7 @@ dig google.com
 
 ## Running process
 ```
-ps -ef
+ps -ef                                        // Display information about the currently running processes
 ```
 
 ## Android Commands
