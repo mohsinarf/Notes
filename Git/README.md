@@ -34,8 +34,11 @@ or
 `git status`
 
 *Branch*
+
 `git branch`      // list all the local branches
+
 `git branch -r`   // list all the remote branches   
+
 `git branch -a`	  // list all the local and remote branches
 
 
