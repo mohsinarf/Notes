@@ -56,4 +56,4 @@ The aggregated class can exist independently of the container class.
 
 Composition implies a stronger ownership relationship compared to aggregation. The lifecycle of the part is tied to the lifecycle of the whole.
 
-![image](../Images/relationships-between-classes.pngrelationships-between-classes.png)
+![image](../Images/relationships-between-classes.png)
