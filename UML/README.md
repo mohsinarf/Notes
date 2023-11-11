@@ -1,3 +1,5 @@
+
+# Class Relationships
 ## 1. Inheritance (Generalization)
 
 ### Use Case
