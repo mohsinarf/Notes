@@ -3,10 +3,11 @@
 ## Basic Git Commands
 
 `git init`
-`git clone <Repsoitory_link>`  // Clone git repository
+
+`git clone <Repsoitory_link>`          // Clone git repository
 
 
-`git add <filename>`            // Staging
+`git add <filename>`                  // Staging
 or
 `git add .`
 
