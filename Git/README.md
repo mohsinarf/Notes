@@ -1,39 +1,28 @@
 
 
-*Create a new git project*
+## Basic Git Commands
 
 `git init`
+`git clone <Repsoitory_link>`  // Clone git repository
 
-*Configure your username and email address*
 
-`git config --global user.name "FIRST_NAME LAST_NAME"`
-
-`git config --global user.email "MY_NAME@example.com"`
-
-*Clone git repository*
-
-`git clone <Repsoitory_link>`
-
-*stage changes*
-
-`git add <filename>`
-
+`git add <filename>`            // Staging
 or
-
 `git add .`
 
-
-*Commit changes*
-
-`git commit -m "Change information"`
-
-*Push changes to the remote repository
+`git commit -m "Change information"`  // Commit changes
 
 `git push <remote_name> <branch_name>`
 
 `git status`
 
-*Branch*
+## Configure
+
+`git config --global user.name "FIRST_NAME LAST_NAME"`
+
+`git config --global user.email "MY_NAME@example.com"`
+
+## Branch related commands
 
 `git branch`      // list all the local branches
 
@@ -41,9 +30,11 @@ or
 
 `git branch -a`	  // list all the local and remote branches
 
-
 `git log`
 
 `git remote update`
 
 `git config --list`
+
+## Undo the Last commit
+`git revert <commit-to-revert.`  // create a new commit that undo all the changes
