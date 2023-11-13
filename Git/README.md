@@ -8,7 +8,9 @@
 
 
 `git add <filename>`                  // Staging
+
 or
+
 `git add .`
 
 `git commit -m "Change information"`  // Commit changes
