@@ -703,3 +703,44 @@ int operator "" _int(const char* str, std::size_t) {
 
 "123"_int; // == 123, with type `int`
 ~~~
+
+
+### Exceptions
+cassert and try-catch serve different purposes in C++ and are used in different scenarios.
+
+cassert:
+
+cassert is a header file in C++ that provides the assert macro, which is commonly used for debugging purposes.
+It is primarily used to check assumptions made by the programmer during the development phase. If an assertion fails (evaluates to false), the program terminates, and an error message may be displayed.
+cassert is typically used to catch programming errors that should never happen if the code is correct. It's not intended for handling runtime errors or exceptional situations during normal program execution.
+```
+#include <cassert>
+
+int main() {
+    int x = 5;
+    assert(x == 10);  // Program terminates if the assertion fails
+    return 0;
+}
+```
+try-catch:
+
+try-catch is part of the C++ exception handling mechanism and is used to handle runtime errors and exceptional situations during program execution.
+Code that might throw exceptions is placed within a try block, and the possible exceptions are caught and handled in one or more catch blocks.
+Using try-catch allows the program to gracefully handle exceptional conditions without terminating abruptly.
+```
+#include <iostream>
+
+int main() {
+    try {
+        int x = 5;
+        if (x != 10) {
+            throw std::runtime_error("x is not equal to 10");
+        }
+    } catch (const std::exception& e) {
+        std::cerr << "Exception: " << e.what() << std::endl;
+    }
+
+    return 0;
+}
+```
+In summary, cassert is used for debugging and catching programming errors during development, while try-catch is used for handling runtime errors and exceptions during the execution of a program. They serve different purposes and are not interchangeable.
