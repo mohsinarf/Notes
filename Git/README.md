@@ -19,6 +19,16 @@ or
 
 `git status`
 
+## Merge branch
+
+`git checkout master`
+
+`git pull origin master`
+
+`git merge <branch-name>`
+
+`git push origin master`
+
 ## Configure
 
 `git config --global user.name "FIRST_NAME LAST_NAME"`
