@@ -13,7 +13,7 @@ ldd exectubale_file > log.txt                  // Write the dependency required 
 rm -rf "directory"                             // Remove directory without asking for confirmation
 ldd app.exec                                   // find all the dependencies to run the application
 fgrep '_PB_INC1' -r                            // Search text in the files from current location
-
+rm -r ./*                                      // Remove all files at the existing location
 ```
 ## Grep Commands
 ```
