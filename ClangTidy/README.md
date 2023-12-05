@@ -3,10 +3,13 @@
 clang-tidy is a tool designed to perform static code analysis on C and C++ code. It checks your code for potential issues and suggests improvements based on a set of predefined rules. 
 
 ## How to use
+
 `clang-tidy -p /path/to/build_directory /path/to/source_file.cpp`
 
 The -p (or --project) option specifies the path to the directory containing the compile_commands.json file.
 
+use the following command to generate the `compile_commands.json` file. 
+`cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON ..`
 ## Checks
 Following checks are added to the .clang-tidy file.
 ```
