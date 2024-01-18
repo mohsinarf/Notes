@@ -47,6 +47,10 @@ or
 
 `git remote update`
 
+## Merge Conflicts
+
+`git merge --continue`   // Once all conflicted files are marked as resolved, continue with the merge process
+
 `git config --list`
 
 ## Undo the Last commit
