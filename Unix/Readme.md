@@ -14,6 +14,8 @@ rm -rf "directory"                             // Remove directory without askin
 ldd app.exec                                   // find all the dependencies to run the application
 fgrep '_PB_INC1' -r                            // Search text in the files from current location
 rm -r ./*                                      // Remove all files at the existing location
+
+
 ```
 ## Grep Commands
 ```
@@ -106,4 +108,12 @@ ps -ef                                        // Display information about the c
 adb devices
 adb intall package
 adb shell
+```
+
+## Managing Process
+
+```
+ps aux
+kill <PID>
+top // maximum memory using programs
 ```

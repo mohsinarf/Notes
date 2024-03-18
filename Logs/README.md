@@ -87,3 +87,9 @@ int main() {
 }
 
 ```
+
+Log messages should have severity levels to indicate their importance. Common levels include INFO, WARNING, ERROR, and DEBUG.
+INFO: General information about the application's operation.
+WARNING: Indicates potential issues that do not prevent the application from running but may require attention.
+ERROR: Indicates a failure or error that prevented a specific operation from completing.
+DEBUG: Detailed information for debugging purposes. Should not be present in production logs by default.

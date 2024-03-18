@@ -7,7 +7,7 @@ This repository serves as a collection of comprehensive notes related to various
 This repository covers the following topics:
 
 1. [C++](C++): Notes and examples related to the C++ programming language.
-2. [Git](Git): Useful information and commands for version control with Git.
+2. [Git](Git/README): Useful information and commands for version control with Git.
 3. [Jira](Jira): Tips and guidelines for using Jira, a popular issue and project tracking tool.
 4. [Markdown](Markdown): A guide to writing and formatting Markdown files.
 5. [Python](Python): Notes, code snippets, and best practices for Python programming.
