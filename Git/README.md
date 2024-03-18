@@ -1,7 +1,4 @@
 
-## Basic Git Commands
-
-
 ## Stash Command
 
 ### Temporarily store changes in a stash
