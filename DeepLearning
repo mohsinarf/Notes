@@ -1,0 +1,94 @@
+# Deep Learning Concepts
+
+## 1. Artificial Neural Networks (ANNs)
+- Feedforward Neural Networks
+- Recurrent Neural Networks (RNNs)
+- Convolutional Neural Networks (CNNs)
+- Deep Belief Networks (DBNs)
+- Autoencoders
+
+## 2. Activation Functions
+- Sigmoid
+- Tanh (Hyperbolic Tangent)
+- ReLU (Rectified Linear Unit)
+- Leaky ReLU
+- ELU (Exponential Linear Unit)
+- Swish
+
+## 3. Optimization Algorithms
+- Gradient Descent
+- Stochastic Gradient Descent (SGD)
+- Mini-batch Gradient Descent
+- Adam Optimizer
+- RMSprop
+- Adagrad
+- Momentum
+
+## 4. Loss Functions
+- Mean Squared Error (MSE)
+- Cross-Entropy Loss
+- Hinge Loss
+- KL Divergence
+- Huber Loss
+
+## 5. Regularization Techniques
+- L1 Regularization (Lasso)
+- L2 Regularization (Ridge)
+- Dropout
+- Batch Normalization
+
+## 6. Convolutional Neural Networks (CNNs)
+- Convolutional Layers
+- Pooling Layers
+- Padding
+- Stride
+
+## 7. Recurrent Neural Networks (RNNs)
+- Long Short-Term Memory (LSTM)
+- Gated Recurrent Unit (GRU)
+- Bidirectional RNNs
+
+## 8. Transfer Learning
+- Fine-Tuning
+- Feature Extraction
+
+## 9. Generative Adversarial Networks (GANs)
+
+## 10. Reinforcement Learning
+- Q-Learning
+- Deep Q-Networks (DQN)
+- Policy Gradient Methods
+- Actor-Critic Methods
+
+## 11. Attention Mechanisms
+- Self-Attention
+- Transformer Architecture
+
+## 12. Explainable AI (XAI)
+- Interpretability
+- Model Explainability
+- Feature Attribution
+
+## 13. Natural Language Processing (NLP)
+- Word Embeddings (Word2Vec, GloVe)
+- Recurrent Neural Networks (RNNs)
+- Transformer Models (BERT, GPT)
+
+## 14. Computer Vision
+- Object Detection
+- Image Classification
+- Semantic Segmentation
+- Instance Segmentation
+
+## 15. Time Series Analysis
+- Long Short-Term Memory (LSTM)
+- Gated Recurrent Unit (GRU)
+- Temporal Convolutional Networks (TCNs)
+
+## 16. Reinforcement Learning
+- Markov Decision Processes (MDPs)
+- Policy Iteration
+- Value Iteration
+- Monte Carlo Methods
+- Temporal Difference Learning
+
