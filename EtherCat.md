@@ -9,6 +9,9 @@ Ethernet uses the request and send protocol. While EtherCAT uses a single frame 
 2) Stack delays
 3) Switch delays
 
+## Distributed clock 
+'Message receive' time stamp is added on the frame.
+
 ## EtherCat Specifications
 - Bandwidth -> 100 Mb/s
 - Nodes     -> 65535
