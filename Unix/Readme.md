@@ -107,6 +107,10 @@ ps -ef                                        // Display information about the c
 ```
 adb devices
 adb intall package
+
+adb pair 192.168.0.7:45247
+adb connect 192.168.0.7:45247 
+adb -s 192.168.0.7:45247 shell
 adb shell
 ```
 
