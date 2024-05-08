@@ -14,4 +14,6 @@ Some key properties of Dijkstra's algorithm:
 - It has a time complexity of O(E + V log V), where E is the number of edges and V is the number of vertices in the graph.
 - It is commonly used in routing protocols like OSPF and IS-IS, as well as in applications like Google Maps to find optimal routes
 
+## Reference
+https://www.youtube.com/watch?v=bZkzH5x0SKU&ab_channel=FelixTechTips
 
