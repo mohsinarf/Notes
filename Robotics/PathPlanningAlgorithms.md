@@ -22,3 +22,10 @@ Dijkstra's algorithm is used to find the shortest path between a source node and
 ## A* Algorithm
 A* is an informed search algorithm that combines features of Dijkstra's algorithm and greedy best-first search. It uses a heuristic function to estimate the cost from the current node to the goal node, allowing it to find the shortest path more efficiently than Dijkstra's algorithm in many cases. Its time complexity can vary depending on the heuristic used and the structure of the graph.
 In summary, for finding the shortest path in an unweighted graph, BFS is the most suitable algorithm. For weighted graphs, Dijkstra's algorithm is the standard choice. A* can be more efficient than Dijkstra's algorithm in certain cases, but it requires a good heuristic function. DFS is useful for finding any path between two nodes, but not necessarily the shortest path.
+
+
+Rapidly-exploring Random Trees (RRT)
+Probabilistic Roadmap (PRM)
+Wavefront algorithm
+D* Lite
+A* algorithm
