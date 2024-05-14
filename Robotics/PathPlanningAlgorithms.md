@@ -32,4 +32,3 @@ In summary, for finding the shortest path in an unweighted graph, BFS is the mos
 
 ## D* Lite
 
-## A* algorithm
