@@ -32,3 +32,27 @@ In summary, for finding the shortest path in an unweighted graph, BFS is the mos
 
 ## D* Lite
 
+## Types of Path Planning
+There are several different kinds of path planning algorithms used for autonomous vehicles, robots, and other systems. The main categories are:
+
+### Grid-Based Search Algorithms
+These find a path based on minimum travel cost in a grid map, suitable for 2D environments like mobile robots. Examples include:
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Dijkstra's algorithm
+- A* algorithm and its variants like Anytime Repairing A*, Real-time Adaptive A*, Lifelong Planning A*, and Bidirectional A*
+- D* and D* Lite for dynamic replanning
+
+### Sampling-Based Algorithms
+These create a searchable tree by randomly sampling new nodes/configurations in a state space, suitable for high-dimensional spaces like robot arms. Examples:
+- Rapidly-exploring Random Trees (RRT)
+- RRT variants like RRT-Connect, Bi-RRT, Dynamic RRT
+- Probabilistic Roadmaps (PRM)
+
+### Trajectory Optimization Algorithms
+These formulate path planning as an optimization problem considering vehicle dynamics, constraints, and performance. Examples:
+- Model Predictive Control (MPC) for online replanning
+- Optimization-based planners like CHOMP, STOMP, TrajOpt
+
+Other approaches include potential field methods, bio-inspired algorithms like ant colony optimization, and machine learning techniques like reinforcement learning.
+The choice depends on factors like environment complexity, dimensionality, dynamic constraints, optimality requirements, and computational resources.
