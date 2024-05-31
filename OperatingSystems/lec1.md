@@ -3,7 +3,7 @@
 - Provide consistent abstractions to applications, even on different hardware
 - Manage sharing of resources among multiple applications
 
-  The key building blocks:
+***The key building blocks:***
 - Processes
 - Threads, Concurrency, Scheduling, Coordination
 - Address Spaces
@@ -19,7 +19,8 @@
 - CPU Scheduling 
 - Communications? (Does Email belong in OS?) 
 - Multitasking/multiprogramming?
-*** What about*** 
+  
+***What about*** 
 - File System? 
 - Multimedia Support? 
 - User Interface? 
