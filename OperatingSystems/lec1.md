@@ -43,6 +43,7 @@ A process consists of:
 
 ## Reference:
 - https://www.youtube.com/watch?v=pPzVV2kkGHc&list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC&index=6&ab_channel=JohnKubiatowicz
+- https://inst.eecs.berkeley.edu/~cs162/sp22/
 
 ## Important Numbers
 ![image](https://github.com/mohsinarf/Notes/assets/69187532/9ca86593-5bf3-4c43-8a09-05393ae67790)
