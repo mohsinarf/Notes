@@ -41,6 +41,8 @@ A process consists of:
 ## What is an operating systems?
 ![image](https://github.com/mohsinarf/Notes/assets/69187532/eecbc26e-0c35-4f78-a32d-5d3fb9667ad7)
 
+## Reference:
+- https://www.youtube.com/watch?v=pPzVV2kkGHc&list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC&index=6&ab_channel=JohnKubiatowicz
 
 ## Important Numbers
 ![image](https://github.com/mohsinarf/Notes/assets/69187532/9ca86593-5bf3-4c43-8a09-05393ae67790)
