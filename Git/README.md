@@ -110,6 +110,9 @@ or
 ### Reset the current branch to a specific state
 `git reset <commit-hash>`
 
+`git pull --rebase`
+
+`git rebase --abort`
 
 ```
 1. 𝐠𝐢𝐭 𝐝𝐢𝐟𝐟: Show file differences not yet staged.
