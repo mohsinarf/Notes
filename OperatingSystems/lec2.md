@@ -1,5 +1,11 @@
 # Four Fundamentals of OS
 
+- Processor —> Thread
+- Memory —> Address Space
+- Disks, SSDs, ... —> Files
+- Networks —> Sockets
+- Machines —> Processes 
+
 ### Thread Control Block (TCB)
 
 ## Address Space
