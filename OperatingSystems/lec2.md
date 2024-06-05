@@ -22,6 +22,11 @@
 ## Illusion of multiple processors
 ![image](https://github.com/mohsinarf/Notes/assets/69187532/dca13033-bd4d-4a2f-af79-237c1c8cbb60)
 
+### Thread Control Block (TCB)
+- Holds contents of registers when thread not running 
+
+**Where are TCBs stored?**
+- For now, in the kernel 
 
 ## OS Abstractions 
 - Processor —> Thread
@@ -30,7 +35,6 @@
 - Networks —> Sockets
 - Machines —> Processes
   
-### Thread Control Block (TCB)
 
 ## Address Space
 
