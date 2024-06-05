@@ -13,6 +13,16 @@
 - Only the “system” has the ability to access certain resources 
 - Combirted with translation, isolates programs from each other and the OS from programs 
 
+## How a program runs
+![image](https://github.com/mohsinarf/Notes/assets/69187532/bf2734bd-889e-49fc-b7e4-bba3bd322700)
+
+## Instruction Fetch/Decode/Execute
+![image](https://github.com/mohsinarf/Notes/assets/69187532/24f6dde7-c3b2-4a73-8687-8dff087fc577)
+
+## Illusion of multiple processors
+![image](https://github.com/mohsinarf/Notes/assets/69187532/dca13033-bd4d-4a2f-af79-237c1c8cbb60)
+
+
 ## OS Abstractions 
 - Processor —> Thread
 - Memory —> Address Space
