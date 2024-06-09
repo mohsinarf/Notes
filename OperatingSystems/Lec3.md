@@ -3,6 +3,11 @@
 ## What are threads
 A single unique execution context
 
+A thread is in one of the following three states: 
+- RUNNING — running 
+- READY - eligible to run, but not currently running 
+- BLOCKED - ineligible to run 
+
 ## Multiprocessing vs Multiprogramming vs Multithreading
 
 | Feature          | Multiprocessing                                   | Multiprogramming                                | Multithreading                                   |
