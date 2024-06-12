@@ -24,6 +24,48 @@ pThreads -> Posix threads
 - Shared state between multiple threads 
 ### Goal: Correctness by Design 
 
+## Locks
+Locks provide two atomic operations: 
+- **Lock.acquire()** — wait until lock is free; then mark it as busy 
+- After this returns, we say the calling thread holds the lock 
+- **Lock.release()** — mark lock as free 
+- Should only be called by a thread that currently holds the lock 
+- After this returns, the calling thread no longer holds the lock 
+
+## Process management api
+- exit — terminate a process
+- fork — copy the current process
+- exec — change the program being run by the current process
+- wait — wait for a process to finish
+- kill — send a signal (interrupt-like notification) to another proce:
+- sigaction — set handlers for signals
+## Creating Processes
+### pid_t fork() — copy the current process 
+- New process has different pid 
+- New process contains a single thread 
+### Return value from fork(): pid (like an integer) 
+- When>0: 
+  - Running in (original) Parent process 
+  - return value is pid of new child 
+- When = 0: 
+  - Running in new Child process 
+- When <0: 
+  - Error! Must handle somehow 
+  - Running in original process 
+“+ State of original process duplicated in both Parent and Child! 
+| — Address Space (Memory), File Descriptors (covered later), etc... 
+## Conclusion
+### Threads are the OS unit of concurrency 
+- Abstraction of a virtual CPU core 
+- Can use pthread create, etc., to manage threads within a process 
+- They share data = need synchronization to avoid data races 
+### Processes consist of one or more threads in an address space 
+- Abstraction of the machine: execution environment for a program 
+- Can use fork, exec, etc. to manage threads within a process 
+### We saw the role of the OS library 
+- Provide API to programs 
+- Interface with the OS to request services 
+
 ## Multiprocessing vs Multiprogramming vs Multithreading
 
 | Feature          | Multiprocessing                                   | Multiprogramming                                | Multithreading                                   |
