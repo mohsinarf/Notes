@@ -8,6 +8,22 @@ A thread is in one of the following three states:
 - READY - eligible to run, but not currently running 
 - BLOCKED - ineligible to run 
 
+## pThreads
+pThreads -> Posix threads
+![image](https://github.com/mohsinarf/Notes/assets/69187532/1c9effc4-c878-4eb6-b704-30dbd59c823e)
+
+
+### Non-determinism: 
+- Scheduler can run threads in any order 
+- Scheduler can switch threads at any time 
+- This can make testing very difficult 
+### Independent Threads 
+- No state shared with other threads 
+- Deterministic, reproducible conditions
+### Cooperating Threads 
+- Shared state between multiple threads 
+### Goal: Correctness by Design 
+
 ## Multiprocessing vs Multiprogramming vs Multithreading
 
 | Feature          | Multiprocessing                                   | Multiprogramming                                | Multithreading                                   |
