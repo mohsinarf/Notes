@@ -1,4 +1,4 @@
-# Rag
+# Rag (Retrieval Augmentation Generation
 
 
 ## Multi-Representation indexing
