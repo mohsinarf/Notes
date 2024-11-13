@@ -1,4 +1,4 @@
-# Radar vs Utrasonic
+# Radar vs Utrasonic Sensors
 
 | Feature                 | Ultrasonic Sensor                                         | Radar Sensor                                               |
 |-------------------------|-----------------------------------------------------------|------------------------------------------------------------|
