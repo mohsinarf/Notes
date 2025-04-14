@@ -1,3 +1,9 @@
+# JavaScript CheatSheet
+
+## Sources
+https://www.youtube.com/watch?v=Zi-Q0t4gMC8
+
+
 ### Data Types
 ```
 let firstName = 'John';
